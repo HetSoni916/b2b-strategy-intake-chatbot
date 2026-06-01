@@ -1,0 +1,187 @@
+{
+  "accuracy": 1,
+  "passed": true,
+  "metrics": {
+    "totalPersonas": 12,
+    "correctClassifications": 12,
+    "incorrectClassifications": 0,
+    "totalRepeatedQuestions": 0,
+    "uniquePathsCount": 12
+  },
+  "bucketResults": [
+    {
+      "persona": "SaaS Founder",
+      "founder": "Alex Chen",
+      "company": "SaaSFlow Inc",
+      "expected": "Sales",
+      "predicted": "Sales",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "Ecommerce Founder",
+      "founder": "Sarah Jenkins",
+      "company": "Bloom & Clay",
+      "expected": "Brand",
+      "predicted": "Brand",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "Manufacturing Founder",
+      "founder": "Vikram Patel",
+      "company": "Patel Precision Parts",
+      "expected": "Ops",
+      "predicted": "Ops",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "Healthcare Startup Founder",
+      "founder": "Elena Rostova",
+      "company": "MediLink AI",
+      "expected": "GTM",
+      "predicted": "GTM",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "Agency Founder",
+      "founder": "Marcus Sterling",
+      "company": "Apex Design Studio",
+      "expected": "Pricing",
+      "predicted": "Pricing",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "Fintech Founder",
+      "founder": "David Kross",
+      "company": "PayGuard Secure",
+      "expected": "Ops",
+      "predicted": "Ops",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "EdTech Founder",
+      "founder": "Emily Watson",
+      "company": "K12Code Lab",
+      "expected": "Sales",
+      "predicted": "Sales",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "D2C Brand Founder",
+      "founder": "Chloe Bennett",
+      "company": "Luxe Botanicals",
+      "expected": "Brand",
+      "predicted": "Brand",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "Marketplace Founder",
+      "founder": "Ryan Miller",
+      "company": "GigSwap",
+      "expected": "GTM",
+      "predicted": "GTM",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "AI Startup Founder",
+      "founder": "Jason Tang",
+      "company": "DataSynthesize",
+      "expected": "Pricing",
+      "predicted": "Pricing",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "Logistics Founder",
+      "founder": "Tariq Mahmood",
+      "company": "RouteFlow Logistics",
+      "expected": "Ops",
+      "predicted": "Ops",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    },
+    {
+      "persona": "Real Estate Founder",
+      "founder": "Victoria Vance",
+      "company": "Vance & Co Realty",
+      "expected": "Sales",
+      "predicted": "Sales",
+      "match": true,
+      "repeatedQuestionsCount": 0
+    }
+  ],
+  "branchingResults": {
+    "divergentPaths": true,
+    "uniqueQuestionPathsCount": 12,
+    "pathDetails": {
+      "saas_founder": [
+        "Welcome! Let's kick off the discovery session. To help me understand SaaSFlow Inc, could you share a bit more about your project management software and who your primary target construction users are?",
+        "That makes sense. How are your current customer acquisition channels set up, and how do you capture trial signups?",
+        "Understood. Out of those trial signups, where do you feel the biggest drop-offs occur, and what is your conversion rate to paid plans?"
+      ],
+      "ecommerce_founder": [
+        "Welcome Sarah. Can you start by describing your handcrafted ceramic decor lineup and how you currently retail them direct-to-consumer?",
+        "Interesting. How do you drive traffic to your store, and what are your current marketing channels?",
+        "With Meta costs increasing, what is the impact on your acquisition costs, and where is the profitability breaking down?"
+      ],
+      "manufacturing_founder": [
+        "Welcome Vikram. Can you describe Patel Precision Parts' manufacturing operations and the types of custom industrial orders you handle?",
+        "How do you currently track orders, schedule shop-floor production, and monitor raw steel inventory?",
+        "It sounds like inventory bottlenecks occur often. What is the biggest issue causing you to run out of raw materials?"
+      ],
+      "healthcare_founder": [
+        "Welcome Elena. Can you start by telling me more about MediLink AI's diagnostic scanner software and its core clinical value?",
+        "Where do you stand regarding FDA regulatory clearances, and what pilot clinics are you currently speaking with?",
+        "Since you are pre-revenue, what is the primary hurdle in locking in your first hospital network contract?"
+      ],
+      "agency_founder": [
+        "Welcome Marcus. Tell me about Apex Design Studio's design services and how you find your clients.",
+        "How do you currently bid on projects, and what is your average contract price for websites?",
+        "You mentioned a race to the bottom. What pricing pressure are you feeling, and why are clients negotiating down?"
+      ],
+      "fintech_founder": [
+        "Welcome David. Can you outline PayGuard Secure's transaction monitoring APIs and your target bank clients?",
+        "How does your compliance team verify flagged bank transactions, and what manual audits are required?",
+        "You noted bank onboarding is taking 3 months. Where is the main friction point in your current onboarding audit sequence?"
+      ],
+      "edtech_founder": [
+        "Welcome Emily. Tell me more about K12Code Lab's coding curriculum and the school districts you serve.",
+        "How does your sales team approach school administrators, and what is your pricing structure per school?",
+        "With sales cycles taking 9 to 12 months, what is the biggest friction point in getting superintendent buy-in?"
+      ],
+      "d2c_brand_founder": [
+        "Welcome Chloe. Can you share details about Luxe Botanicals' vegan skincare products and your direct sales channel?",
+        "What are your current customer acquisition costs on social media, and how are you driving brand awareness?",
+        "You mentioned low customer retention. Why are buyers purchasing a single bottle and never returning?"
+      ],
+      "marketplace_founder": [
+        "Welcome Ryan. Can you describe GigSwap's freelance marketplace and how you attract videographers?",
+        "How do you currently verify videographer portfolios, and how many jobs are being booked monthly?",
+        "You face a classic chicken-and-egg launch bottleneck. Why are you failing to attract business owners to post jobs?"
+      ],
+      "ai_founder": [
+        "Welcome Jason. Can you explain DataSynthesize's synthetic data generation software and the models you use?",
+        "How is your pricing structured, and what are your hosting and compute costs for enterprise clients?",
+        "With gross margins under 20%, how are heavy data compute requests eating into your bottom line?"
+      ],
+      "logistics_founder": [
+        "Welcome Tariq. Can you describe RouteFlow Logistics' delivery fleet and the businesses you serve?",
+        "How do your dispatchers schedule routes every morning, and what communication tools do you use?",
+        "With 15% late deliveries, where are the primary route planning errors and delays occurring?"
+      ],
+      "realestate_founder": [
+        "Welcome Victoria. Tell me about Vance & Co Realty's brokerage business and your agent roster.",
+        "How do you currently purchase leads, and how are they assigned to agents when they arrive?",
+        "You mentioned leads are sitting in inboxes for hours. What is causing this follow-up delay among agents?"
+      ]
+    }
+  }
+}

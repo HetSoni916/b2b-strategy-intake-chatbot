@@ -1,0 +1,218 @@
+[
+  {
+    "id": "saas_founder",
+    "name": "Alex Chen",
+    "company": "SaaSFlow Inc",
+    "persona": "SaaS Founder",
+    "expectedBucket": "Sales",
+    "profile": "SaaS company struggling to close leads. High traffic and signups, but very low conversion to paid plans due to a lack of sales follow-up and structured pipeline.",
+    "answers": [
+      "We build project management SaaS for construction teams. We have about 1,000 traffic visitors per day and 50 trial signups weekly.",
+      "Right now, we have a small team of 4. We use Google Analytics and Stripe. Our sales team is just me and my co-founder trying to email leads manually.",
+      "Our main problem is that out of 50 trial signups weekly, we only convert 1 or 2 to paid plans. Leads just go cold after signing up, and we don't know why.",
+      "The bottleneck is definitely follow-up. We don't have a CRM or sequence. We get busy with engineering and forget to follow up with active trial users.",
+      "Because of this, we are losing thousands of dollars in potential MRR. We can't hire more support engineers because our revenue is stagnant at $5k MRR.",
+      "If we don't fix this in 6 months, we will run out of our angel funding. It's draining our morale because we know the product is good but we can't sell it.",
+      "Converting even 10% of those trial signups would double our revenue in two months. That would let us hire a full-time salesperson and focus on product.",
+      "We want to achieve a clear, automated outreach sequence for trial users, ensuring every signup gets called or emailed within 2 hours."
+    ]
+  },
+  {
+    "id": "ecommerce_founder",
+    "name": "Sarah Jenkins",
+    "company": "Bloom & Clay",
+    "persona": "Ecommerce Founder",
+    "expectedBucket": "Brand",
+    "profile": "E-commerce founder experiencing high customer acquisition costs (CAC). Copycat brands are diluting their market and they have low brand loyalty/organic traffic.",
+    "answers": [
+      "We sell handcrafted ceramic home decor online. We sell direct-to-consumer through Shopify, mostly in North America.",
+      "We rely almost entirely on Meta ads. Our organic social media is low, and our website traffic is about 15,000 monthly visits.",
+      "The massive issue is our Meta ad costs (CAC) have doubled in the last year, making us barely profitable. Copycat brands are stealing our imagery and undercut us.",
+      "The key bottleneck is our lack of brand recall. Customers buy once because of an ad, but they don't remember our name and never return. Repeat purchase rate is under 5%.",
+      "This makes our business highly unstable. If Meta changes their algorithm, our sales drop to zero. We're spending 40% of revenue on ads just to stay flat.",
+      "Without building a strong brand identity and community, we will be forced to shut down next year because ad costs are eating all our margin.",
+      "Building a solid, recognizable brand and organic community would reduce our dependence on paid ads. Increasing repeat purchases to 20% would stabilize our cash flow.",
+      "Our goal is to create a loyal customer base and a distinct brand voice that copycats can't copy, driving organic traffic."
+    ]
+  },
+  {
+    "id": "manufacturing_founder",
+    "name": "Vikram Patel",
+    "company": "Patel Precision Parts",
+    "persona": "Manufacturing Founder",
+    "expectedBucket": "Ops",
+    "profile": "Manufacturing founder dealing with severe operational bottlenecks. Inventory tracking is manual, leading to shipment delays and high logistics stress.",
+    "answers": [
+      "We manufacture custom steel brackets and CNC parts for industrial clients. We run a physical facility with 25 shop-floor workers.",
+      "We track everything on physical dry-erase boards and spreadsheets. We handle about 50 large custom orders a month.",
+      "Our biggest problem is that our inventory tracking is completely broken. We frequently run out of raw steel without knowing, delaying production for days.",
+      "The bottleneck is manual communication. The shop floor doesn't update the office when they use raw material, leading to inaccurate purchase orders.",
+      "Consequently, 20% of our orders are shipped late. This has cost us two major enterprise clients last quarter, who left due to delivery delays.",
+      "If we don't automate our inventory systems, we will continue losing clients, and our reputation in the industry will be ruined. We are also wasting thousands on rush shipping.",
+      "Having an automated inventory system that syncs shop floor usage with purchasing would eliminate delays. We could increase throughput by 30% without adding staff.",
+      "We need an operations overhaul: digitizing the inventory ledger and setting up automatic low-stock alerts for purchasing."
+    ]
+  },
+  {
+    "id": "healthcare_founder",
+    "name": "Elena Rostova",
+    "company": "MediLink AI",
+    "persona": "Healthcare Startup Founder",
+    "expectedBucket": "GTM",
+    "profile": "Digital health founder struggling with Go-To-Market strategy. They have built an AI diagnosis assistant but don't know how to navigate regulatory pathways or target the right buyer.",
+    "answers": [
+      "We've built an AI-powered diagnostic assistant for radiologists to help them spot anomalies in X-rays faster.",
+      "We are a team of 6 engineers and 1 medical advisor. The tool is fully built and has basic FDA clearance, but we haven't launched commercial sales.",
+      "We don't know who our actual buyer is. Should we sell to individual clinics, large hospital networks, or partner with medical imaging hardware companies?",
+      "The bottleneck is GTM execution. We are engineers who don't know healthcare procurement cycles or hospital decision-maker behavior.",
+      "As a result, we are pre-revenue and burning $20k a month of our seed money. We have a great product sitting on a server that nobody is using.",
+      "If we don't land a pilot client or commercial contract in the next 4 months, we will run out of money and have to dissolve the startup.",
+      "Clarifying our GTM positioning and locking in 2 hospital pilots would validate the business model, allowing us to raise a Series A round.",
+      "We want to outline a step-by-step Go-To-Market roadmap targeting mid-sized clinics to secure our first $100k in ARR."
+    ]
+  },
+  {
+    "id": "agency_founder",
+    "name": "Marcus Sterling",
+    "company": "Apex Design Studio",
+    "persona": "Agency Founder",
+    "expectedBucket": "Pricing",
+    "profile": "Design agency founder facing severe pricing pressure. They are treated as a commodity, forced to discount, and want to shift to premium pricing or retainer models.",
+    "answers": [
+      "We are a digital design and branding agency. We build websites and branding materials for mid-market clients.",
+      "We have 8 designers. We charge per project, usually averaging $5,000 to $10,000 per website.",
+      "We are stuck in a pricing race to the bottom. Clients constantly negotiate our prices down, comparing us to cheap freelancers on Upwork.",
+      "The bottleneck is our pricing model and packaging. We sell hourly/project design outputs rather than high-value strategic outcomes, which keeps us commoditized.",
+      "This keeps our net margins under 10%. We are constantly stressed about cash flow, and we cannot afford to pay competitive salaries to retain our best designers.",
+      "If we don't restructure our pricing, we will burn out. I'm working 70-hour weeks just to keep the agency profitable and we are one lost client away from breaking even.",
+      "Transitioning to value-based pricing and monthly retainers of $3,000/mo would double our margins and stabilize cash flow, letting me step back from daily tasks.",
+      "We need a strategy to reposition our services as value-driven assets and package them into non-negotiable premium tiers."
+    ]
+  },
+  {
+    "id": "fintech_founder",
+    "name": "David Kross",
+    "company": "PayGuard Secure",
+    "persona": "Fintech Founder",
+    "expectedBucket": "Ops",
+    "profile": "Fintech founder bogged down by operational regulatory compliance. Manual fraud reviews and compliance audits are slowing client onboarding and scaling.",
+    "answers": [
+      "We provide B2B compliance and fraud monitoring APIs for community banks and credit unions.",
+      "We have 12 employees, half of whom are compliance officers manually reviewing flagged bank transactions.",
+      "Our onboarding process for new banks is incredibly slow. Each integration requires manual compliance auditing, taking up to 3 months per client.",
+      "The bottleneck is operations. Our transaction monitoring alerts trigger too many false positives, requiring manual review by our compliance team.",
+      "This delays bank onboardings, creating a massive backlog. Clients are getting frustrated, and we cannot scale because hiring more compliance officers is too expensive.",
+      "If we can't automate this onboarding and review flow, we will lose our current backlog to competitors who onboard banks in weeks, not months.",
+      "Automating 80% of our fraud review screening using smart heuristics would clear our backlog instantly, allowing us to triple our client count.",
+      "We want to redesign our internal operational compliance workflows to support automated escalations and faster bank setup."
+    ]
+  },
+  {
+    "id": "edtech_founder",
+    "name": "Emily Watson",
+    "company": "K12Code Lab",
+    "persona": "EdTech Founder",
+    "expectedBucket": "Sales",
+    "profile": "EdTech founder struggling with institutional B2B sales. Long sales cycles with schools and universities are causing cash flow bottlenecks.",
+    "answers": [
+      "We build coding curriculum software for school districts and private K-12 institutions.",
+      "We sell annual software licenses per school. Currently, we are active in 30 schools.",
+      "Our sales cycle is incredibly long and unpredictable. It takes 9 to 12 months to close a single school district, and we keep getting passed around between administrators.",
+      "The bottleneck is our enterprise sales process. We don't have a structured approach for multi-stakeholder decisions or getting buy-in from superintendents.",
+      "This makes our cash flow extremely lumpy. We burn cash for 9 months, then get a surge of license sales in August. We can't plan hiring or product roadmaps.",
+      "If we can't shorten our sales cycle or build a predictable sales pipeline, we won't survive the next winter dip in school buying cycles.",
+      "Structuring a clear sales playbook to shorten cycles to 3 months and closing 5 multi-school deals would give us stable, year-round growth.",
+      "We want to build a repeatable B2B sales playbook specifically mapped to the education sector's buying timeline."
+    ]
+  },
+  {
+    "id": "d2c_brand_founder",
+    "name": "Chloe Bennett",
+    "company": "Luxe Botanicals",
+    "persona": "D2C Brand Founder",
+    "expectedBucket": "Brand",
+    "profile": "D2C skincare brand founder experiencing low customer loyalty. They want to shift from transactional sales to high-affinity brand community building.",
+    "answers": [
+      "We sell organic, vegan skincare products directly to consumers through our e-commerce store.",
+      "We have a strong initial launch, but our customers are mostly transactional. We have 50k Instagram followers but low engagement.",
+      "Our customer retention is very low. People buy a bottle of serum, and then we never hear from them again. We are spending too much on customer acquisition.",
+      "The bottleneck is brand affinity and community. We look like every other skincare bottle on the shelf. We haven't created a story or emotional hook.",
+      "Consequently, our LTV to CAC ratio is 1.1x, which is unsustainable. We are barely breaking even because we have to pay Meta for every single sale.",
+      "If we don't build brand loyalty and subscription models, we will go out of business as ad platforms raise bidding rates.",
+      "Shifting customers to a subscription model and increasing our retention rate to 40% would double our LTV, making our business highly profitable.",
+      "We need a comprehensive brand strategy that turns buyers into passionate brand advocates and subscribers."
+    ]
+  },
+  {
+    "id": "marketplace_founder",
+    "name": "Ryan Miller",
+    "company": "GigSwap",
+    "persona": "Marketplace Founder",
+    "expectedBucket": "GTM",
+    "profile": "Marketplace founder struggling to balance supply and demand. They launched a freelance marketplace for local videographers but are failing to attract local businesses.",
+    "answers": [
+      "We run GigSwap, a local marketplace connecting freelance videographers with small business owners who need promo videos.",
+      "We have onboarded 400 videographers onto the platform, but we only have 10 active business listings.",
+      "We are facing a classic marketplace chicken-and-egg launch problem. The videographers are getting bored because there are no jobs, and we can't sign up businesses.",
+      "The bottleneck is our GTM strategy for the demand side. We spent all our energy onboarding suppliers, but we have no strategy to acquire local business buyers.",
+      "This is hurting our credibility. Videographers are deleting their profiles, and we are generating zero transactions. We've spent $30k on platform development for no sales.",
+      "If we don't acquire at least 50 active business buyers in the next 3 months, our supplier network will completely collapse and leave the platform.",
+      "Unlocking a repeatable B2B marketing channel for local businesses would generate consistent transactions and kickstart the network effect.",
+      "We need a localized Go-To-Market blueprint to acquire the business demand side of our marketplace."
+    ]
+  },
+  {
+    "id": "ai_founder",
+    "name": "Jason Tang",
+    "company": "DataSynthesize",
+    "persona": "AI Startup Founder",
+    "expectedBucket": "Pricing",
+    "profile": "AI startup founder facing low gross margins due to heavy GPU inference costs. They need to redesign their pricing tiers and monetization strategy.",
+    "answers": [
+      "We offer AI-powered synthetic data generation for enterprise machine learning pipelines.",
+      "We charge a flat subscription of $199/month for unlimited synthetic data generation.",
+      "Our gross margins are terrible (below 20%). A few heavy users are running massive GPU-intensive datasets, causing our cloud computing bill to skyrocket.",
+      "The bottleneck is our flat-rate pricing model. We are charging a flat subscription instead of consumption-based or tier-based pricing tied to API usage.",
+      "We are literally losing money on our most active customers. This makes scaling dangerous: the more customers we get, the more cash we burn.",
+      "If we don't restructure our pricing tiers immediately, we will go bankrupt trying to pay our cloud/GPU hosting bills next month.",
+      "Switching to usage-based pricing with credit packages would immediately raise our gross margins to 70% and make heavy users profitable.",
+      "We need a structured pricing framework that aligns our compute costs with customer value metrics."
+    ]
+  },
+  {
+    "id": "logistics_founder",
+    "name": "Tariq Mahmood",
+    "company": "RouteFlow Logistics",
+    "persona": "Logistics Founder",
+    "expectedBucket": "Ops",
+    "profile": "Logistics founder experiencing delivery efficiency leaks. Fleet tracking is manual, and dispatcher bottlenecks are causing delayed shipments.",
+    "answers": [
+      "We operate a last-mile delivery fleet of 45 vans serving local retail businesses and distributors.",
+      "We have 6 dispatchers manually scheduling routes every morning using Excel and phone calls to drivers.",
+      "Our routing is highly inefficient, leading to late deliveries and high fuel waste. Drivers are sitting in traffic and missing delivery windows.",
+      "The bottleneck is our manual dispatch operations. There is no real-time route optimization or feedback loop between drivers and dispatchers.",
+      "This causes 15% of our deliveries to be late, resulting in chargebacks and penalties from our retail clients. Fuel costs are also 20% higher than average.",
+      "If we don't digitize our dispatch flow, we will lose our delivery contracts to larger logistics providers with automated routing software.",
+      "Implementing routing optimization algorithms and automating dispatch would cut fuel costs by 15% and increase delivery completion rates to 99%.",
+      "We want to optimize our dispatch operations, introducing digital proof of delivery and automated route mapping."
+    ]
+  },
+  {
+    "id": "realestate_founder",
+    "name": "Victoria Vance",
+    "company": "Vance & Co Realty",
+    "persona": "Real Estate Founder",
+    "expectedBucket": "Sales",
+    "profile": "Real estate brokerage owner seeing leads slip through the cracks. Inbound buyer/seller leads from digital portals are not followed up on quickly enough by agents.",
+    "answers": [
+      "We are a residential real estate brokerage with 35 independent agents working under our brand.",
+      "We spend $8,000 monthly buying buyer and seller leads from Zillow, Realtor.com, and local Facebook ads.",
+      "Our lead-to-meeting conversion is abysmal. Leads are sitting in our inbox for hours or days before an agent claims them and calls them.",
+      "The bottleneck is our lead routing and sales follow-up process. We don't have an automated 'speed-to-lead' system to auto-dial or auto-assign leads.",
+      "We are wasting $8,000 a month. Over 70% of our premium leads are never contacted, or they are contacted after they have already booked with another broker.",
+      "If we don't fix this lead routing leakage, we will have to cut our marketing budget, which will cause our agent roster to shrink as they leave for other brokerages.",
+      "Automating lead routing so agents are alerted in 60 seconds would triple our conversion rate, resulting in 10-15 more closed home sales per month.",
+      "We want a structured sales routing mechanism and instant automated text follow-up for every inbound lead."
+    ]
+  }
+]
