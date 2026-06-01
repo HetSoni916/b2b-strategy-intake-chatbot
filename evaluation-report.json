@@ -124,7 +124,7 @@
     "pathDetails": {
       "saas_founder": [
         "Welcome! Let's kick off the discovery session. To help me understand SaaSFlow Inc, could you share a bit more about your project management software and who your primary target construction users are?",
-        "That makes sense. How are your current customer acquisition channels set up, and how do you capture trial signups?",
+        "Regarding the 1,000 daily visitors and 50 weekly trial signups, what are your primary channels for attracting these construction teams to your site?",
         "Understood. Out of those trial signups, where do you feel the biggest drop-offs occur, and what is your conversion rate to paid plans?"
       ],
       "ecommerce_founder": [
@@ -138,9 +138,9 @@
         "It sounds like inventory bottlenecks occur often. What is the biggest issue causing you to run out of raw materials?"
       ],
       "healthcare_founder": [
-        "Welcome Elena. Can you start by telling me more about MediLink AI's diagnostic scanner software and its core clinical value?",
-        "Where do you stand regarding FDA regulatory clearances, and what pilot clinics are you currently speaking with?",
-        "Since you are pre-revenue, what is the primary hurdle in locking in your first hospital network contract?"
+        "Welcome, Elena! To start, could you briefly describe MediLink AI's core offering and the primary problem it solves for healthcare startup founders?",
+        "How do radiologists typically integrate MediLink AI into their current diagnostic workflow?",
+        "Given that MediLink AI is fully built and has basic FDA clearance, what specific challenges have you encountered that are preventing you from launching commercial sales?"
       ],
       "agency_founder": [
         "Welcome Marcus. Tell me about Apex Design Studio's design services and how you find your clients.",
@@ -173,7 +173,7 @@
         "With gross margins under 20%, how are heavy data compute requests eating into your bottom line?"
       ],
       "logistics_founder": [
-        "Welcome Tariq. Can you describe RouteFlow Logistics' delivery fleet and the businesses you serve?",
+        "Welcome Tariq. To begin, could you give me a high-level overview of RouteFlow Logistics' core services and target customer base?",
         "How do your dispatchers schedule routes every morning, and what communication tools do you use?",
         "With 15% late deliveries, where are the primary route planning errors and delays occurring?"
       ],

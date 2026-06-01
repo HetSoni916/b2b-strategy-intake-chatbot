@@ -236,9 +236,9 @@ async function callLLM({ systemPrompt, userPrompt, jsonMode = false }) {
       console.log('Calling Gemini LLM...');
       let model;
       if (typeof geminiClient.getGenerativeModel === 'function') {
-        model = geminiClient.getGenerativeModel({ model: 'gemini-1.5-flash' });
+        model = geminiClient.getGenerativeModel({ model: 'gemini-2.5-flash' });
       } else {
-        model = geminiClient.models.get('gemini-1.5-flash');
+        model = geminiClient.models.get('gemini-2.5-flash');
       }
       
       const contents = [
@@ -256,6 +256,7 @@ async function callLLM({ systemPrompt, userPrompt, jsonMode = false }) {
       return responseText;
     } catch (err) {
       console.error('Gemini LLM call failed.', err.message);
+      throw err;
     }
   }
 
@@ -419,10 +420,7 @@ Determine the primary bottleneck. Return JSON structure only.`;
  * Generates the strategic engagement brief in Markdown format
  */
 export async function generateStrategyBrief({ session, history, bucket }) {
-  // Smart Mock Fallback Templates
-  if (!isAiConfigured()) {
-    console.log(`AI Service: Running in offline Mock Mode for brief generation`);
-    return `# Executive Summary
+  const mockBrief = `# Executive Summary
 ${session.founderName}, founder of ${session.companyName}, has completed the B2B consultative strategy intake. The startup represents a highly focused ${session.personaName || 'innovative business'} solving core industry challenges. This document presents the strategic findings, operational analysis, and a recommended roadmap tailored specifically for their bottleneck.
 
 # Company Overview
@@ -451,6 +449,11 @@ We recommend an immediate, dedicated **${bucket} Optimization Engagement**. This
 1. Audit current daily manual tasks and assign a dollar-value cost to time spent.
 2. Implement a single dashboard tracker to monitor the primary metric governing your **${bucket}** funnel.
 3. Schedule a follow-up architecture review to wire up automated CRM/outreach alerts.`;
+
+  // Smart Mock Fallback Templates
+  if (!isAiConfigured()) {
+    console.log(`AI Service: Running in offline Mock Mode for brief generation`);
+    return mockBrief;
   }
 
   // AI Brief Generation
@@ -484,7 +487,6 @@ Generate the brief. Return Markdown content only.`;
     return await callLLM({ systemPrompt, userPrompt, jsonMode: false });
   } catch (err) {
     console.error('LLM brief generation failed, using mock backup:', err.message);
-    return `# Executive Summary
-Fail-safe strategic intake brief for ${session.companyName} compiled via fallback template.`;
+    return mockBrief;
   }
 }
